@@ -84,7 +84,7 @@ if(temperature >= 80 && rain === false) {
 */
 
 //CODE HERE
-for(let i = 0; i <10; i++) {
+for(let n = 0; n <10; n++) {
   console.log("hello")
 };
 
@@ -95,9 +95,9 @@ for(let i = 0; i <10; i++) {
 */
 
 //CODE HERE
-for(let i = 1; i <10; i++) {
-  console.log(i)
-};
+//for(let i = 1; i <10; i++) {
+//   console.log(i)
+// };
 
 
 ////////// PROBLEM 7 //////////
@@ -105,9 +105,9 @@ for(let i = 1; i <10; i++) {
 /*
   Create a for-loop that logs the numbers 0 through 10 backwards. Ex, on the first iteration it would log 10, on the second iteration it would log 9.
 */
-for(let n = 10; n <-10; n++){
-  console.log(n)
-  break;
+for(let i = 10; i >= 0; i--){
+  console.log(i);
+  
 };
 //CODE HERE
 
@@ -124,6 +124,13 @@ let passingScore = 7
 
 //CODE HERE
 
+while(score <= passingScore) {
+  score++
+  console.log("Your score is not high enough")
+}
+
+
+
 ////////// INTERMEDIATE PROBLEMS //////////
 
 ////////// PROBLEM 9 //////////
@@ -132,7 +139,13 @@ let passingScore = 7
   Check to see if changeMyMind is set to true or false, if it is true, change the status to false, if it is false, change the status to true.
 
 */
+let changeMyMind = true
 
+if(changeMyMind = true) {
+  changeMyMind = false
+} else if(changeMyMind = false) {
+  changeMyMind = true
+}
 //CODE HERE
 
 ////////// PROBLEM 10 //////////
